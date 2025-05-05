@@ -1,6 +1,5 @@
 # Two push swap testers updated - 2025
 ### -Scope and Changes
-<br>
 I picked up two popular push swap testers and made a few tweaks on both.
 <br>
 yfu -> Now works on Linux, cleans after itself (make, clean automatically...), minor tweaks, changed ALL memory tests from leaks to Valgrind, just be sure to have valgrind installed!
@@ -8,16 +7,14 @@ yfu -> Now works on Linux, cleans after itself (make, clean automatically...), m
 gemartin -> Files no longer needs to be on root its on a folder, now before being run it: fclean, make, clean (this prevents errors when changing stuff around or having old push_swap programs) <br> <br>
 
 ### Usage
-<br>
 To use the testers:
 <br>
-You will need your folder with your .c, .h and Makefile files.
-<br>
+You will need your folder with your .c, .h and Makefile files. <br>
 push_tester_GEMARTIN: Copy the tester folder to the folder with all your stuff, go inside the tester folder and run: 
 
 ```./push_test.sh```
 
-<br><br>
+<br>
 
 push_swap_tester_YFU: Copy the tester folder to the folder with all your stuff, go inside the tester folder and run:  
 
