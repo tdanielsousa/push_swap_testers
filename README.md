@@ -1,5 +1,4 @@
 # Two push swap testers updated - 2025
-<br>
 ### Scope and Changes
 <br>
 I picked up two popular push swap testers and made a few tweaks on both.
