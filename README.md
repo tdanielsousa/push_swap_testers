@@ -17,7 +17,9 @@ You will need your folder with your .c, .h and Makefile files.
 
 
 push_tester_GEMARTIN: Copy the tester folder to the folder with all your stuff, go inside the tester folder and run: 
+
 ```./push_test.sh```
+
 
 
 push_swap_tester_YFU: Copy the tester folder to the folder with all your stuff, go inside the tester folder and run:  
@@ -25,6 +27,7 @@ push_swap_tester_YFU: Copy the tester folder to the folder with all your stuff, 
 ```./basic_test.sh```  -  Parsing test (ERROR_TEST), identity test, and small stack test (size 3 and 5)
 
 ```./loop.sh 100 10``` - ./loop.sh <stack size> <loop times>  Choose a size, and the nr of times to run it.
+
 
 
 
