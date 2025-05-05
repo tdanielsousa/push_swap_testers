@@ -23,6 +23,11 @@ rm -rf 0
 
 # -=-=-=-=-	Control errors -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- #
 
+make fclean -C ..
+make -C ..
+make clean -C ..
+
+
 FILE="$PWD/../push_swap"
 FICHERO=test_check.txt
 
