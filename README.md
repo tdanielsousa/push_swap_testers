@@ -23,13 +23,12 @@ push_swap_tester_YFU: Copy the tester folder to the folder with all your stuff, 
 ```./loop.sh 100 10``` - ./loop.sh <stack size> <loop times>  Choose a size, and the nr of times to run it.
 <br>
 
-
+<br><br>
 
 YFU's tester has more features, i DID not test them all, check out his github repo where you have a readme with all the stuff:
 https://github.com/LeoFu9487/push_swap_tester
 (Beware it's a MacOs version here)
-
+<br>
 GEMARTIN's tester:
 https://github.com/gemartin99/Push-Swap-Tester
-
-
+<br>
