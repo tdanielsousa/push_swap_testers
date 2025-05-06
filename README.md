@@ -7,11 +7,11 @@ I picked up two popular push swap testers and made a few tweaks on both.
 **<u>gemartin</u>** -> Files no longer needs to be on root its on a folder, now before being run it: fclean, make, clean (this prevents errors when changing stuff around or having old push_swap programs) <br> <br>
 
 ### :desktop_computer: ___Usage___ :desktop_computer:
-To use the testers:
+To use the testers:<br>
 <br>
 You can now also just do: ./testers.sh and choose an option.<br>
 <br>
-<br>You will need your folder with your .c, .h and Makefile files.<br>
+You will need your folder with your .c, .h and Makefile files.<br>
 <br> push_tester_GEMARTIN: Copy the tester folder to the folder with all your stuff, go inside the tester folder and run: 
 
 ```./push_test.sh```
