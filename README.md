@@ -9,9 +9,9 @@ I picked up two popular push swap testers and made a few tweaks on both.
 ### :desktop_computer: ___Usage___ :desktop_computer:
 To use the testers:
 <br>
-You can now also just do: ./testers.sh and choose an option.
+You can now also just do: ./testers.sh and choose an option.<br>
 <br>
-You will need your folder with your .c, .h and Makefile files.<br>
+<br>You will need your folder with your .c, .h and Makefile files.<br>
 <br> push_tester_GEMARTIN: Copy the tester folder to the folder with all your stuff, go inside the tester folder and run: 
 
 ```./push_test.sh```
