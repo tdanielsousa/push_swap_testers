@@ -16,31 +16,31 @@ read choice
 
 case $choice in
   1)
-    if [ -d "push_tester" ]; then
-      cd push_tester && ./push_test.sh
+    if [ -d "push_tester_GEMARTIN" ]; then
+      cd push_tester_GEMARTIN && ./push_test.sh
     else
-      echo "Error: failed to find 'push_tester' directory."
+      echo "Error: failed to find 'push_tester_GEMARTIN' directory."
     fi
     ;;
   2)
-    if [ -d "push_swap_tester" ]; then
-      cd push_swap_tester && ./basic_test.sh
+    if [ -d "push_swap_tester_YFU" ]; then
+      cd push_swap_tester_YFU && ./basic_test.sh
     else
-      echo "Error: failed to find 'push_swap_tester' directory."
+      echo "Error: failed to find 'push_swap_tester_YFU' directory."
     fi
     ;;
   3)
-    if [ -d "push_swap_tester" ]; then
-      cd push_swap_tester && ./loop.sh 100 20
+    if [ -d "push_swap_tester_YFU" ]; then
+      cd push_swap_tester_YFU && ./loop.sh 100 20
     else
-      echo "Error: failed to find 'push_swap_tester' directory."
+      echo "Error: failed to find 'push_swap_tester_YFU' directory."
     fi
     ;;
   4)
-    if [ -d "push_swap_tester" ]; then
-      cd push_swap_tester && ./loop.sh 500 20
+    if [ -d "push_swap_tester_YFU" ]; then
+      cd push_swap_tester_YFU && ./loop.sh 500 20
     else
-      echo "Error: failed to find 'push_swap_tester' directory."
+      echo "Error: failed to find 'push_swap_tester_YFU' directory."
     fi
     ;;
   *)
